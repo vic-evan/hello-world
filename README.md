@@ -1,10 +1,11 @@
 # hello-world
 public class seasonTest{
 public static void main(String args []){
-season season1 = new season(SPRING);
-  
-System.out.println();
+season summer = new season(SUMMER);
+System.out.println(summer);
 }
+
+
 enum season{
   SPRING("春天","Spring"),
   SUMMER("夏天","Summer"),
